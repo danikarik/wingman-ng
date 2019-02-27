@@ -29,7 +29,14 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/prismjs/prism.js",
+              "node_modules/scrollmonitor/scrollMonitor.js",
+              "node_modules/smartwizard/dist/js/jquery.smartWizard.min.js",
+              "node_modules/smooth-scroll/dist/smooth-scroll.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
